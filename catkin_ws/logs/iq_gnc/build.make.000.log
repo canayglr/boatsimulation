@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target gnc_example[0m
+[35m[1mScanning dependencies of target square[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gnc_example.dir/src/gnc_tutorial.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square_boat.cpp.o[0m
+In file included from /home/can/catkin_ws/src/iq_gnc/src/gnc_tutorial.cpp:1:
+/home/can/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/can/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:403:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  403 | }
+      | ^
+In file included from /home/can/catkin_ws/src/iq_gnc/src/square_boat.cpp:1:
+/home/can/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/can/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:403:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  403 | }
+      | ^
+[ 75%] [32m[1mLinking CXX executable /home/can/catkin_ws/devel/.private/iq_gnc/lib/iq_gnc/gnc_example[0m
+[100%] [32m[1mLinking CXX executable /home/can/catkin_ws/devel/.private/iq_gnc/lib/iq_gnc/square[0m
+[100%] Built target square
+[100%] Built target gnc_example
